@@ -1,0 +1,26 @@
+/* Apply flex box to main and body*/
+body, main {
+    display: flex;
+}
+/* flex direction to body and main*/
+body {
+    flex-direction: column;
+}
+main {
+    flex-direction: row;
+}
+/* Apply the flex:auto to main so that it keeps automatic height and width*/
+main {
+    flex: auto;
+}
+/* Assigned article tag 2/3 of the with of the main page and aside tag 1/3 of the main page*/
+article {
+    flex: 2;
+}
+aside {
+    flex: 1;
+}
+/* Style the article and aside so that i can stroll through it*/
+article, aside {
+    overflow-y: auto;
+}
